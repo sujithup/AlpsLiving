@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Amenities from "./components/Amenities";
 import { Pricing } from "./components/Pricing";
 import { Maps } from "./components/Maps";
+import WhatsAppButton from "./components/WhatsappButton";
 
 export default function Home() {
   return (
@@ -16,9 +17,10 @@ export default function Home() {
         />
         <div className="main-wrapper bg-[#FFF7E4] relative z-10 pb-20 pt-20 ">
           <Navbar />
+          <WhatsAppButton/>
           <HeroSection />
           <Amenities/>
-        <Pricing/>
+        {/* <Pricing/> */}
         <Maps/>
         </div>
       </main>
