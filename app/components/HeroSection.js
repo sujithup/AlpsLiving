@@ -7,13 +7,25 @@ export const HeroSection = () => {
     <div className="flex-col justify-center py-16 text-center">
       <div className="mx-auto max-w-3xl">
         <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
-          <div style={{ color: "#546681", fontWeight: "bold" }}>
-            Only 3 Spots left, Hurry Up!
+          <div
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              backgroundColor: "#FDC5BF",
+              display: "inline-flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "auto",
+              padding: "1% 2% 1% 2%",
+              borderRadius: "5px",
+            }}
+          >
+            Opposite to Christ University
           </div>
         </MotionBTTContainer>
         {/* Appear Second */}
         <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
-          <div className="text-4xl lg:text-6xl font-semibold">
+          <div className="text-4xl lg:text-6xl mt-5 font-semibold">
             The place that you will be <br /> excited to{" "}
             <span style={{ color: "#EE227A" }}>call home</span>
           </div>
@@ -28,7 +40,8 @@ export const HeroSection = () => {
             </p>
           </div>
           <Link
-            href="/#contact"
+            href="https://forms.gle/4wHo8QSHM7bpvkaw8"
+            target="_blank"
             className="mt-8 mb-5 px-6 inline-block bg-slate-800 py-3 w-fit rounded-full mr-4 hover:opacity-80 text-white"
           >
             Register Now

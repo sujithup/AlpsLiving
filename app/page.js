@@ -6,6 +6,10 @@ import Amenities from "./components/Amenities";
 import { Pricing } from "./components/Pricing";
 import { Maps } from "./components/Maps";
 import WhatsAppButton from "./components/WhatsappButton";
+import Features from "./components/Features";
+import Photos from "./components/Photos";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,9 +23,13 @@ export default function Home() {
           <Navbar />
           <WhatsAppButton/>
           <HeroSection />
+          <Features/>
+          <Photos/>
           <Amenities/>
+          <FAQ/>
         {/* <Pricing/> */}
         <Maps/>
+        <Footer/>
         </div>
       </main>
     </>

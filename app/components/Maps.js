@@ -16,13 +16,13 @@ export const Maps = () => {
       >
         <Image src="/location.jpg" width="884" height="517" />
         <Link
-        href="/#contact"
-        className="mt-8 mb-5 px-6 inline-block bg-slate-800 py-3 w-fit rounded-full mr-4 hover:opacity-80 text-white"
-      >
-        Get Directions
-      </Link>
+          href="https://maps.app.goo.gl/1JkqYRU7sH9Szm3o7"
+          target="_blank"
+          className="mt-8 mb-5 px-6 inline-block bg-slate-800 py-3 w-fit rounded-full mr-4 hover:opacity-80 text-white"
+        >
+          Get Directions
+        </Link>
       </div>
-      
     </section>
   );
 };
