@@ -36,9 +36,14 @@ function FAQ() {
 
       <div className="mt-10 p-2 pl-5 pb-16 gap-4 sm:grid sm:grid-cols-2 lg:grid-cols-2">
         {faq.map((item, idx) => (
-          <div className="space-y-3 mt-5" key={idx}>
+          <div
+            className="space-y-3 mt-5 p-2"
+            key={idx}
+            style={{ border: "2px solid #FFE2C8", borderRadius: "10px" }}
+          >
             <h4 className="text-xl text-gray-700 font-medium">
-                {idx+1}. {item.question}</h4>
+              {idx + 1}. {item.question}
+            </h4>
             <p className="text-gray-500">{item.answer}</p>
           </div>
         ))}

@@ -8,8 +8,8 @@ export const navLinks = [
     path: "#features",
   },
   {
-    title: "Ameneties",
-    path: "#amenities",
+    title: "Photos",
+    path: "#photos",
   },
 ];
 
@@ -59,47 +59,47 @@ export const features = [
 
 export const photos = [
   {
-    title: "Prime Location",
-    src: "https://source.unsplash.com/400x300/?hanging-planters",
+    title: "Amenities",
+    src: "/photos/amenities.jpg",
   },
   {
-    title: "Experienced Management",
-    src: "https://source.unsplash.com/400x300/?planter-stand",
+    title: "Bathroom",
+    src: "/photos/bathroom.jpg",
   },
   {
-    title: "Exclusively for Girls",
-    src: "https://source.unsplash.com/400x300/?metal-planters",
+    title: "Common Space",
+    src: "/photos/common.jpg",
   },
   {
-    title: "Modern Amenities",
-    src: "https://source.unsplash.com/400x300/?table-top-planters",
+    title: "Cupboard",
+    src: "/photos/cupboard.jpg",
   },
   {
-    title: "Friendly Staff",
-    src: "https://source.unsplash.com/400x300/?wall-mounted-stands",
+    title: "Drinking Water",
+    src: "/photos/water.jpg",
   },
   {
-    title: "Regular Cleaning",
-    src: "https://source.unsplash.com/400x300/?jute-plant-pot",
+    title: "Iron Box",
+    src: "/photos/ironbox.jpg",
   },
   {
-    title: "Regular Cleaning",
-    src: "https://source.unsplash.com/400x300/?bird-feeders",
+    title: "Lift",
+    src: "/photos/lift.jpg",
   },
   {
-    title: "Regular Cleaning",
-    src: "https://source.unsplash.com/400x300/?hanging-birds",
+    title: "Room",
+    src: "/photos/room.jpg",
   },
   {
-    title: "Regular Cleaning",
-    src: "https://source.unsplash.com/400x300/?garden-sticks",
+    title: "Terrace",
+    src: "/photos/terrace.jpg",
   },
 ];
 
 export const faq = [
   {
     question: "How far is the PG from the Christ College?",
-    answer: "0KM! It is right opposite to the college.",
+    answer: "0KM! Address: #169, opp. Christ University, HMT Layout, Nagasandra, Bangalore-73",
   },
   {
     question: "Is the girls PG near Christ University exclusively for Christ University students?",

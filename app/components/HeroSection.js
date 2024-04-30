@@ -5,7 +5,7 @@ import Link from "next/link";
 export const HeroSection = () => {
   return (
     <div className="flex-col justify-center py-16 text-center">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto pt-2 max-w-3xl">
         <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
           <div
             style={{
@@ -20,7 +20,7 @@ export const HeroSection = () => {
               borderRadius: "5px",
             }}
           >
-            Opposite to Christ University
+            Opposite to Christ university, Nagasandra campus
           </div>
         </MotionBTTContainer>
         {/* Appear Second */}

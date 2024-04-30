@@ -25,7 +25,7 @@ export default function Home() {
           <HeroSection />
           <Features/>
           <Photos/>
-          <Amenities/>
+          {/* <Amenities/> */}
           <FAQ/>
         {/* <Pricing/> */}
         <Maps/>
