@@ -18,7 +18,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://i.postimg.cc/ryb8WQnX/Lawnber-Bg.jpg",
+        url: "https://i.postimg.cc/K8Xr1fyb/Opengraph-1.jpg",
         width: 1200,
         height: 630,
         alt: "Alpsliving BG pic",
