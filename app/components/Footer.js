@@ -45,6 +45,12 @@ function Footer() {
               sanjeev.alpsliving@gmail.com
             </a>
           </div>
+          <div class="flex">
+            <p class="mr-1 text-gray-800">Address:</p>
+            <p class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            #169, opp. Christ University, HMT Layout, Nagasandra, Bangalore-73
+            </p>
+          </div>
         </div>
         <div>
           <span class="text-base font-bold tracking-wide text-gray-900">
@@ -78,6 +84,7 @@ function Footer() {
             </a>
           </div>
         </div>
+        
       </div>
       <div class="flex flex-col-reverse justify-between pt-5  border-t lg:flex-row">
         <p class="text-sm text-gray-600">
