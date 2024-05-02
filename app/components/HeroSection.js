@@ -20,7 +20,7 @@ export const HeroSection = () => {
               borderRadius: "5px",
             }}
           >
-            Opposite to Christ university, Nagasandra campus
+            Opposite to Christ university, Yeshwanthpur campus
           </div>
         </MotionBTTContainer>
         {/* Appear Second */}
