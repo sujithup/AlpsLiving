@@ -14,13 +14,16 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href="/"
+          aria-label='link to the homepage'
         >
-          <Image src="/logo.png" width="100" height="100"/>
+          <Image src="/logo.png" alt="logo" loading="eager" width="100" height="100"/>
         </Link>
         <div className="mobile-menu block pt-1 md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
+              title="Navbar menu button"
+              aria-label="nav menu button"
               className="flex items-center px-2 py-3 "
             >
               <CiMenuFries className="h-10 w-10" />
@@ -29,6 +32,8 @@ const Navbar = () => {
             <button
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-2 py-3 "
+              title="Navbar close button"
+              aria-label="nav close menu button"
             >
               <IoMdClose className="h-10 w-10" />
             </button>
@@ -40,6 +45,7 @@ const Navbar = () => {
               <li key={index}>
                 <Link
                   href={link.path}
+                  aria-label='link to the navbar links'
                   className="block py-2 pl-3 pr-4  text-black sm:text-xl rounded md:p-0 hover:text-black"
                 >
                   {link.title}
@@ -55,6 +61,7 @@ const Navbar = () => {
             <li key={index}>
               <Link
                 href={link.path}
+                aria-label='link to the navbar links'
                 onClick={() => setNavbarOpen(false)}
                 className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-2xl rounded md:p-0 hover:text-black"
               >

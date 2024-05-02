@@ -42,6 +42,7 @@ export const HeroSection = () => {
           <Link
             href="https://forms.gle/4wHo8QSHM7bpvkaw8"
             target="_blank"
+            aria-label='link to Google Sheets'
             className="mt-8 mb-5 px-6 inline-block bg-slate-800 py-3 w-fit rounded-full mr-4 hover:opacity-80 text-white"
           >
             Register Now
@@ -53,6 +54,7 @@ export const HeroSection = () => {
           <div className="page-banner--image">
             <Image
               src="/HeroBg.png"
+              loading="eager"
               width={1110}
               height={317}
               alt="Page Banner"

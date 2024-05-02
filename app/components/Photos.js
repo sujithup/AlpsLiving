@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { dummy, photos } from "../utils/constants";
+import { photos } from "../utils/constants";
 import Link from "next/link";
 
 function Photos() {
@@ -30,7 +30,7 @@ function Photos() {
             >
               <Image
                 src={photo.src}
-                alt="Hanging Planters"
+                alt={photo.title}
                 class="w-full cursor-pointer"
                 width="400"
                 height="300"
@@ -51,7 +51,7 @@ function Photos() {
           <div class="max-w-screen-xl max-h-screen mx-auto">
             <Image
               src={photos[selectedPhotoIndex].src}
-              alt="Hanging Planters"
+              alt="Pg photos"
               class="max-h-full max-w-full"
               layout="responsive"
               width="400"
@@ -64,6 +64,7 @@ function Photos() {
       <div className="flex justify-center">
         <Link
           href="/gallery"
+          title="View all photos"
           className="inline-block border-4 border-slate-800 py-1 px-1 rounded-full hover:opacity-55 mt-16 sm:mt-10"
         >
           <span className="block font-bold text-slate-800 hover:opacity-50 rounded-full px-5 py-2">

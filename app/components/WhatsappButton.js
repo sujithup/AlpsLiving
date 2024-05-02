@@ -5,7 +5,7 @@ const WhatsAppButton = ({ phoneNumber }) => {
   
     return (
       <a href={whatsappLink} target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp" className="whatsappButton">
-        <Image src="/whatsapp.png" width="50" height="50"/>
+        <Image src="/whatsapp.png" alt="chat on whatsapp" width="50" height="50"/>
       </a>
     );
   };

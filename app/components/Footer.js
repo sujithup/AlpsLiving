@@ -59,6 +59,7 @@ function Footer() {
           <div class="flex items-center mt-1 space-x-3">
             <a
               href="/"
+              title="twitter"
               class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -67,6 +68,7 @@ function Footer() {
             </a>
             <a
               href="/"
+              title="facebook"
               class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
@@ -76,6 +78,7 @@ function Footer() {
             </a>
             <a
               href="/"
+              title="insta"
               class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -94,27 +97,12 @@ function Footer() {
           <li>
             <a
               href="#faq"
+              title="FAQl̥"
               class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               FAQ
             </a>
           </li>
-          {/* <li>
-            <a
-              href="/"
-              class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-            >
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-            >
-              Terms &amp; Conditions
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>

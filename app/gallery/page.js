@@ -47,7 +47,7 @@ function Gallery() {
             {item.type === "photo" ? (
               <img
                 src={item.src}
-                alt={item.alt}
+                alt={item.name}
                 className={`w-full rounded-md h-auto object-cover ${
                   visibleItems.includes(item.src) ? "" : "lazy-load"
                 }`}
@@ -55,7 +55,7 @@ function Gallery() {
             ) : (
               <video
                 src={item.src}
-                alt={item.alt}
+                alt={item.name}
                 className={`w-full rounded-md h-auto object-cover ${
                   visibleItems.includes(item.src) ? "" : "lazy-load"
                 }`}
