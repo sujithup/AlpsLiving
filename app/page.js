@@ -1,4 +1,3 @@
-import SEO from "./components/SEO";
 import { HeroSection } from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import { Maps } from "./components/Maps";
@@ -12,11 +11,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-      <main className="main relative overflow-hidden">
-        <SEO
-          title="Alps Living - Best girl's PG"
-          description="Best Girls PG in Bangalore."
-        />
+      <main className="main relative overflow-hidden">l̥
         <Head>
           <link rel="icon" href="/favicon.ico" />
         </Head>

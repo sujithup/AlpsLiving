@@ -8,6 +8,9 @@ function Gallery() {
   const [visibleItems, setVisibleItems] = useState([]);
   const observer = useRef(null);
 
+  const [playing, setPlaying] = useState(false);
+  const videoRef = useRef(null);
+
   useEffect(() => {
     observer.current = new IntersectionObserver(
       (entries) => {
@@ -59,9 +62,10 @@ function Gallery() {
                 className={`w-full rounded-md h-auto object-cover ${
                   visibleItems.includes(item.src) ? "" : "lazy-load"
                 }`}
-                autoPlay
-                loop
                 muted
+                autoPlay
+                // controls
+                // controlsList="nodownload nofullscreen"
               />
             )}
           </div>

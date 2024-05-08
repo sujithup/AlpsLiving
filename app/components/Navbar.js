@@ -46,7 +46,7 @@ const Navbar = () => {
                 <Link
                   href={link.path}
                   aria-label='link to the navbar links'
-                  className="block py-2 pl-3 pr-4  text-black sm:text-xl rounded md:p-0 hover:text-black"
+                  className="block py-2 pl-3 pr-4  text-black sm:text-xl font-bold rounded md:p-0 hover:text-[#EE227A]"
                 >
                   {link.title}
                 </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 href={link.path}
                 aria-label='link to the navbar links'
                 onClick={() => setNavbarOpen(false)}
-                className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-2xl rounded md:p-0 hover:text-black"
+                className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-2xl rounded font-bold md:p-0 hover:text-[#EE227A]"
               >
                 {link.title}
               </Link>
